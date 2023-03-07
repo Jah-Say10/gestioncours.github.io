@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+     <head>
+        
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+         <title> Gestion Etudiant</title>
+        <style>
+ 
+.header{
+    width:  100%;
+    display: flex;
+    height: 3em;
+
+}
+p,h3{
+    margin-left: 10%;
+}
+
+.head2{
+    height: 5em;
+    width: 81%;
+}
+img{
+    position: relative;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+.head1{
+    height: 50em;
+    width: 19%;   
+    background-color: #bc841b;
+}
+.head1 .recherche{
+    width: 20% !important;
+    float: left;
+}
+h6{
+    margin-left: 10%;
+    float: right;
+}
+
+h2{
+    margin-left: 10%;
+    margin-top: 2em;
+    text-decoration: underline overline;
+}
+.section{
+    width: 81%;
+    margin-left: 19%;
+    height: 45em;
+    margin-top: 2em;
+    
+}
+a{
+   margin-left: 20%;
+   font-size: x-large;
+    font-weight: bold;
+   
+
+}
+a:hover{
+    cursor: pointer;
+    background-color: #989184;
+}
+.eval{
+    display: flex;
+}
+.eval button{
+    margin-left: 10%;
+}
+.table{
+    display: flex;
+    margin-top: 5em;
+}
+.progress{
+    
+    height: 10em !important;
+    width: 25% !important;
+    margin-left: 2% !important;
+    float: left !important;
+}
+
+.footer{
+    width: 100%;
+    height: 5em;
+    text-align: center;
+    background-color: rgb(107, 104, 104);
+}
+  </style>
+     </head> 
+     <body>
+     <div>
+    <div class="header">
+        <div class="head1">
+            <img src="image/logoUgb.jfif" alt=""/>
+            <h2 style="color : white">Tableau de bord</h2> <br/>
+            <p>Gestion de cahier de texte et suivi projet</p>
+        
+            
+            <a href="#" style="text-decoration: none; color: black;">ENSEIGANT/COURS</a>
+            <br/>
+            <br/>
+            <a href="#" style="text-decoration: none; color: black;">Enseignant/Matiere</a>
+            <br/>
+            <br/>
+            <a href="#" style="text-decoration: none; color: black;">COURS/Evaluation</a>
+            <br/>
+            <br/>
+            <a href="#" style="text-decoration: none; color: black;">ENSEIGANT/Projet</a>
+            <br/>
+            <br/>
+            <a href="#" style="text-decoration: none; color: black;">PROJET/SUIVI</a>
+        </div>
+        <div class="head2">
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Recherche"/>
+                    <button class="btn btn-outline-success" type="submit">Recherche</button>
+                  </form>
+                  <h6> ASTOU DIOUF</h6>
+                  <i style="font-size:24px" class="fa">&#xf007;</i>
+                    <a href="index.xhtml"><i style="font-size:24px" class="fa">&#xf011;</i></a> 
+                </div>
+              </nav>
+
+        </div>
+
+    </div>
+    
+    <div class="section">
+        <h3 >Departement\Informatique</h3> <br/>
+     
+        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-info" style="width: 2%"></div>
+            <h4>  MASTER 1 MIAGE  </h4>
+        </div>
+        
+
+      </div>
+    </div>
+     <div class="footer">
+     <p> Copyrigth MKD </p>
+    </div>
+
+     </body>
+</html>     
